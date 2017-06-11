@@ -1,11 +1,6 @@
 name: heroku-jupyter
 dependencies:
   - python = 2.7
-  - pandas
-  - numpy
-  - scipy
-  - matplotlib
-  - quandl
   # bind notebook version (compatibility to pgcontents)
   - notebook = 4
   - ipywidgets
@@ -24,3 +19,8 @@ dependencies:
   - pip:
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+    - pandas
+    - numpy
+    - scipy
+    - matplotlib
+    - quandl
